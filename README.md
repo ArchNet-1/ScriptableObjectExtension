@@ -1,65 +1,30 @@
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="">
-    <img src="https://archnet-plateform.fr/images/ArchNetLogoWithBck.png" alt="Logo" width="300">
-  </a>
-
-  <h3 align="center">Extension Scriptable Object</h3>
+  <a href="https://archnet-plateform.fr"><img src="https://archnet-plateform.fr/ArchNetLogoWithBck.png" alt="ArchNet" width="240"></a>
 </p>
 
+# ArchNet · ScriptableObject Extension
 
+Helpers for assets: get the file name of a ScriptableObject (or any asset), in the Editor and in builds.
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+- Unity **6000.0** or newer · No dependency.
+- Part of [ArchNet](https://archnet-plateform.fr), free and open-source Unity packages
 
-* [What is ArchNet](#about-the-project)
-* [Usage](#usage)
-* [Contact](#contact)
+## Install
 
+*Window > Package Manager > + > Install package from git URL…*
 
+```
+https://github.com/ArchNet-1/ScriptableObjectExtension.git
+```
 
-<!-- ABOUT THE PROJECT -->
-## What is Arch Net
+## Use
 
-Arch Net is a free archive plateform who regroup multipe modules, extensions, library, desgin patterns, services to help people to develop a video game.
-All archives are free and open source ! feel free to help or to ask some new archive by contacting "archnetmodule@gmail.com"
+```csharp
+using ArchNet.Extension;
 
-Every archive are not perfect, develop for a basic usage, feel free to customize or update them.
+string file = mySettings.GetAssetFileName();
+```
 
-Why use Arch Net module ?
+## License
 
-Here's why:
-* Your time should be focused on creating something amazing.
-* Don't waste time ! Archives are here to help you !
-* You are not a developer ? You can use it too !
-
-Of course, this is not a pro service, of course there will be bug or error, shit happen, please contact us if you have some issue with one of our archive !
-
-The best reward for us is to see our archive used in your project ! :) 
-
-That all folks !
-
-
-<!-- Usage -->
-## usage
-
-This extension is a simple script to manage your scriptableobject.
-- GetScriptablePathName : you can get the scriptable asset name 
-
-Get the github HTTPS project url and load it in Unity Package Manager windows
-
-in Unity : Windows -> Package Manager -> + -> Add package from git url
-
-### Installation
-
-1. Get the github HTTPS project url and load it in Unity Package Manager windows
-in Unity : Windows -> Package Manager -> + -> Add package from git url
-2. Clone the repo
-7. Enjoy !
-
-<!-- CONTACT -->
-## Contact
-
-Arch Net - archnetmodule@gmail.com
+See [LICENSE.md](LICENSE.md).

@@ -1,19 +1,20 @@
 {
   "name": "com.archnet.extension.scriptableobject",
-  "version": "1.0.0",
-  "displayName": "Arch Net Extension Scriptable Object",
-  "description": "Extension to manage your scriptable objects",
-  "unity": "2020.1",
-  "unityRelease": "0b5",
+  "version": "2.0.0",
+  "displayName": "ArchNet - ScriptableObject Extension",
+  "description": "Helpers for assets: get the file name of a ScriptableObject (or any asset), in the Editor and in builds.",
+  "unity": "6000.0",
+  "documentationUrl": "https://archnet-plateform.fr/#ScriptableObjectExtension",
+  "changelogUrl": "https://github.com/ArchNet-1/ScriptableObjectExtension/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ArchNet-1/ScriptableObjectExtension/blob/main/LICENSE.md",
   "keywords": [
-    "Arch",
-    "ArchNet",
-    "Extension",
-    "ScriptableObject",
-    "Custom"
+    "archnet",
+    "extension",
+    "scriptableobject"
   ],
   "author": {
-    "name": "Arch Net",
-    "email": "archnetmodule@gmail.com"
+    "name": "ArchNet",
+    "email": "archnetmodule@gmail.com",
+    "url": "https://archnet-plateform.fr"
   }
 }
