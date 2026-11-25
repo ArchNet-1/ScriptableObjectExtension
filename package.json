@@ -4,6 +4,7 @@
   "displayName": "ArchNet - ScriptableObject Extension",
   "description": "Helpers for assets: get the file name of a ScriptableObject (or any asset), in the Editor and in builds.",
   "unity": "6000.0",
+  "license": "MIT",
   "documentationUrl": "https://archnet-plateform.fr/#ScriptableObjectExtension",
   "changelogUrl": "https://github.com/ArchNet-1/ScriptableObjectExtension/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/ArchNet-1/ScriptableObjectExtension/blob/main/LICENSE.md",
